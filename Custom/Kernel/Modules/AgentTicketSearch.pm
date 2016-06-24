@@ -437,14 +437,6 @@ sub Run {
 # ---
         );
 
-        $Kernel::OM->Get('Kernel::System::Log')->Log(
-            Priority => 'error',
-            Message  =>
-                $Kernel::OM->Get('Kernel::System::Main')->Dump(
-                    \%GetParam,
-                ),
-        );
-
         for my $TimeType ( sort keys %TimeMap ) {
 
             # get create time settings
