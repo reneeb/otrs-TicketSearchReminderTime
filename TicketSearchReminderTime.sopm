@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.33) -->
+    <Name>TicketSearchReminderTime</Name>
+    <Version>5.0.1</Version>
+    <Framework>5.0.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>http://www.perl-services.de</URL>
+    <Description Lang="de">Fügt Attribute zur Ticketsuche hinzu mit Bezug auf die Erinnerungszeit</Description>
+    <Description Lang="en">Add ticket search attributes with regard to reminder time</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Custom/Kernel/Modules/AgentTicketSearch.pm" />
+        <File Permission="644" Location="Custom/Kernel/Output/HTML/Templates/Standard/AgentTicketSearch.tt" />
+        <File Permission="644" Location="Kernel/Language/de_TicketSearchReminderTime.pm" />
+        <File Permission="644" Location="doc/TicketSearchReminderTime.json" />
+    </Filelist>
+</otrs_package>
